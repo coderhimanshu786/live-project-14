@@ -1,0 +1,420 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;900&display=swap');
+*{
+    font-family: 'Lato', sans-serif;
+}
+img{
+    width: 70px;
+}
+div.firstpage{
+    background-color: #4d4d6b;
+    width: 98vw;
+    height: 700px;
+}
+nav div.logo{
+    font-size: 35px;
+    font-weight: bold;
+    margin-top: 10px;
+    
+}
+nav div.logo a{
+    text-decoration: none;
+    color: #fff;
+
+}
+nav div.logo a:hover{
+    transition: 0.3s;
+    color: aqua;
+}
+nav{
+    padding-top: 50px;
+    /* border: 2px solid black; */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+nav ul li a{
+    font-weight: bold;
+    font-size: 18px;
+    color: #fff;
+    text-decoration: none;
+}
+nav ul li{
+    margin-left:40px;
+    list-style: none;
+    display: flex;
+    display: inline-block;
+    flex-direction: row;
+}
+nav div.bar{
+    /* border: 2px solid blue; */
+    width: 700px;
+}
+div.btn{
+    margin-left: 200px;
+    /* border: 2px solid yellow; */
+    display: inline-block;
+    width: 150px;
+}
+div.btn button{
+    border: 2px solid #fff;
+    color: #fff;
+    margin-top: 5px;
+    background-color: transparent;
+    padding: 10px 40px;
+}
+main{
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+div.mainHome img{
+    margin-top: 50px;
+    margin-left: 60px;
+    width: 1000px;
+    height: 480px;
+}
+
+div.mainHome h1{
+    margin-top: 6vh;
+    margin-left: 4vw;
+    line-height: 80px;
+    color: #fff;
+    font-size: 60px;
+    width: 500px;
+}
+div.mainHome p{
+    margin-left: 4vw;
+    color: #fff;
+    font-size: 20px;
+    line-height: 35px;
+    font-weight: 300;
+    width: 500px;
+}
+span.empBtn{
+    margin-left: 4vw;
+    
+}
+span.empBtn img{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: #084208a3;
+    margin-top: 2vh;
+    margin-left: 12vw;
+
+}
+#emailAdd{
+    padding: 15px 150px 15px 40px;
+}
+#submitBtn{
+    padding: 12px 20px;
+    margin-left: -105px;
+    background-color: #084208a3;
+    border: none;
+    color: #fff;
+}
+#submitBtn:hover{
+    transition: 0.3s;
+    font-size: 15px;
+    cursor: pointer;
+    
+}
+::placeholder{
+    color: #4d4d6b;
+    font-weight: normal;
+}
+section.sec1{
+    /* border: 2px solid black; */
+    display: inline-block;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    /* margin-top: 50px; */
+}
+section.sec1 div.connectHeading{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-weight: 900;
+    margin-left: 350px;
+    font-size: 45px;
+    /* border:2px solid #084208a3; */
+    height: 200px;
+    width: 1050px;
+}
+div.status{
+    display: inline;
+    align-items: center;
+    margin-left: 450px;
+    width: 1000px;
+    display: grid;
+    grid-template-columns: 1.5fr 1.5fr 1.5fr 1.5fr;
+}
+div.status span h2{
+    margin-top: -100px;
+    font-size: 30px;
+}
+div.status span p{
+    margin-left: -15px;
+    font-size: 15px;
+    color: #4d4d6b;
+}
+div.connectImg img{
+    position: absolute;
+    height: 700px;
+    width: 1350px;
+    margin-left: 150px;
+    margin-top: -100px;
+    z-index: -1;
+}
+/* third page */
+
+div.effectiveHead{
+    /* border: 2px solid black; */
+    margin-top: 200px;
+    text-align: center;
+    font-size: 50px;
+    font-weight: BOLD;
+    color: #e9b83c63;
+}
+div.effectiveHead:hover{
+    transition: 0.3s;
+    color: #6d6dac;
+}
+div.effective{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 500px;
+}
+span.effectPara h3{
+    margin-top: 130px;
+    font-size: 50px;
+    margin-left: 150px;
+
+}
+span.effectPara p{
+    font-size: 25px;
+    font-weight: 300;
+    margin-left: 150px;
+
+}
+span.effectPara button{
+    margin-top: 30px;
+    margin-left: 150px;
+    padding: 10px 50px;
+    background-color: #084208a3;
+    border: none;
+    color: #fff;
+    font-weight: bold;
+}
+span.EffectImg img{
+    width: 600px;
+    height: 600px;
+    margin-top: 50px;
+    margin-left: 75px;
+}
+/* forth page */
+section.sec3{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 100px;
+}
+div.sec3Img img{
+    width: 600px;
+    height: 600px;
+    margin-top: 50px;
+    margin-left: 150px;
+}
+div.sec3Para h3{
+    margin-top: 130px;
+    font-size: 40px;
+    margin-left: 100px;
+
+}
+div.sec3Para p{
+    font-size: 25px;
+    font-weight: 300;
+    margin-left: 100px;
+}
+div.sec3Para button{
+    margin-top: 30px;
+    margin-left: 100px;
+    padding: 10px 50px;
+    background-color: #084208a3;
+    border: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* fifth page */
+
+section.sec4{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 100px;
+}
+div.sec4Para h3{
+    margin-top: 130px;
+    margin-right: 80px;
+    font-size: 45px;
+    font-weight: bold;
+    margin-left: 100px;
+
+}
+div.sec4Para p{
+    font-size: 25px;
+    font-weight: 300;
+    margin-left: 100px;
+    margin-right: 80px;
+
+}
+div.sec4Para button{
+    margin-top: 30px;
+    margin-left: 100px;
+    padding: 10px 50px;
+    background-color: #084208a3;
+    border: none;
+    color: #fff;
+    font-weight: bold;
+}
+div.sec4Img img{
+    width: 600px;
+    height: 600px;
+    margin-top: 50px;
+    margin-left: 80px;
+}
+
+/* sixth page */
+
+div.teamHeading{
+    margin-top: 150px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+div.teamHeading span h3{
+    margin-top: 0px;
+    font-size: 45px;
+    margin-left: 150px;
+    width: 800px;
+
+}
+div.teamHeading span p{
+    font-size: 25px;
+    font-weight: 300;
+    margin-left: 10px;
+    margin-top: 2%;
+    inline-size: 150%;
+
+}
+div.teamwork{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: 150px;
+}
+div.teamwork span img{
+    width: 300px;
+}
+div.teamwork span h4{
+    font-size: large;
+}
+div.teamwork span p{
+    font-size: 15px;
+    font-weight: 400;
+    margin-left: 0px;
+}
+div.seemoreBtn button{
+    margin-top: 20px;
+    font-size: 18px;
+    margin-left: 650px;
+    padding: 20px 70px;
+    background-color: #084208a3;
+    border: none;
+    color: #fff;
+    font-weight: bold;
+}
+button:hover{
+    transition: .3s;
+    width: 200px;
+    background-color: rgb(164, 244, 3);
+    cursor: pointer;
+}
+/*  footer  */
+footer{
+    margin-top: 150px;
+}
+
+div.top{
+    background-color: #12131d;
+    border: 1px solid #fff;
+    display: grid;
+    height: 15vh;
+    grid-template-columns: 1fr 1fr;
+    font-family: 'Poppins', sans-serif;
+}
+span.logo_name img{
+    margin-top: 30px;
+}
+div.link-boxes{
+    background-color: #12131d;
+    /* border: 2px solid red; */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    height: 40vh;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+
+.link_name{
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.link_name:hover::after{
+    content: "";
+    display: block;
+    width: 32px;
+    padding-top: 1px;
+    border-bottom: 2px solid #f9dd94;
+  }
+
+div.logo-last{
+    margin-top: 30px;
+    margin-left: 140px;
+    font-size: 30px;
+    font-weight: bold;
+}
+div.logo-last a{
+    color: #f9dd94;
+    text-decoration: none;
+}
+.fa-slack{
+    margin-left: 10px;
+    margin-top: 20px;
+}
+div.media-icons a {
+    /* margin-top: 25px; */
+    /* background-color: aliceblue; */
+    margin-left: 0px;
+        /* border: 2px solid black; */
+      
+}
+.media-icons a img{
+    width: 40px;
+}
+.media-icons{
+    margin-top: 20px;
+    padding-left: 20px;
+    margin-left: 400px;
+}
+div ul{
+    list-style: none;
+    color: #fff;
+}
+div ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+div ul li{
+    margin-top: 15px;
+}
